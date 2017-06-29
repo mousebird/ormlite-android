@@ -9,9 +9,9 @@ import java.io.InputStreamReader;
 import java.sql.SQLException;
 
 import android.content.Context;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteDatabase.CursorFactory;
-import android.database.sqlite.SQLiteOpenHelper;
+import org.sqlite.database.sqlite.SQLiteDatabase;
+import org.sqlite.database.sqlite.SQLiteDatabase.CursorFactory;
+import org.sqlite.database.sqlite.SQLiteOpenHelper;
 
 import com.j256.ormlite.android.AndroidConnectionSource;
 import com.j256.ormlite.android.AndroidDatabaseConnection;

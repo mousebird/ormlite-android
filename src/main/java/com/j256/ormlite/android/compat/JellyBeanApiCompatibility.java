@@ -1,7 +1,7 @@
 package com.j256.ormlite.android.compat;
 
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
+import org.sqlite.database.sqlite.SQLiteDatabase;
 import android.os.CancellationSignal;
 
 /**

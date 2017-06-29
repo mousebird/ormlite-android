@@ -5,8 +5,8 @@ import java.sql.SQLException;
 import java.sql.Savepoint;
 
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteStatement;
+import org.sqlite.database.sqlite.SQLiteDatabase;
+import org.sqlite.database.sqlite.SQLiteStatement;
 
 import com.j256.ormlite.dao.ObjectCache;
 import com.j256.ormlite.field.FieldType;
